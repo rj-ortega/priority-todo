@@ -1,0 +1,20 @@
+$body-bg: #000;
+
+@import "~bootstrap/scss/bootstrap.scss";
+
+.App,
+tr {
+  text-align: center;
+}
+
+input {
+  max-width: 300px;
+}
+
+.input-group {
+  justify-content: center;
+}
+
+.dropdown-toggle {
+  width: 136px;
+}
