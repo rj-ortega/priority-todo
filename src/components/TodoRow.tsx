@@ -28,6 +28,8 @@ export const TodoRow: FC<TodoRowProps> = ({
 
     let value;
 
+    // magic numbers :: refer to dictionary keys directly?
+
     if (raise && todo.priority > 1) {
       value = todo.priority - 1;
     } else if (!raise && todo.priority < 4) {
