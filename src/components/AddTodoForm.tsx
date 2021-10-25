@@ -39,7 +39,7 @@ export const AddTodoForm: FC<AddTodoFormProps> = ({ addTodo }) => {
         <InputGroup className="mb-3">
           <DropdownButton
             variant="outline-secondary"
-            title={addPriority !== 0 ? addPriority : "Select Priority"}
+            title={addPriority !== 0 ? priority[addPriority] : "Select Priority"}
             className="input-group-dropdown"
             onSelect={(value) => {
               setAddPriority(parseInt(value as string));
